@@ -5,157 +5,6 @@
 	(uuid "1d668b70-50dd-4d1b-886f-26aadeb59b06")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1729128:1729128"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "1729128"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "1729128"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.phoenixcontact.net/product/1729128"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "10.15"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "651-1729128"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1729128?qs=GFUSqQMLmmnCBVBY3dts9w%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1729128"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1729128_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -566,139 +415,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1.5KExxA"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1.5KExxA"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?DO?201AE*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1.5KExxA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1.5KExxA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2469,25 +2185,13 @@
 		)
 	)
 	(junction
-		(at 50.8 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ea38c0a-dd2a-4a40-8bb4-bcab20647963")
-	)
-	(junction
-		(at 59.69 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c9feb8a-4778-42fb-824a-cd22bdccc43d")
-	)
-	(junction
-		(at 80.01 41.91)
+		(at 67.31 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38315151-2ae3-49aa-8123-11ed8b319f61")
 	)
 	(junction
-		(at 67.31 80.01)
+		(at 54.61 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a64e2a5-d962-446b-8139-a183012e5ecd")
@@ -2505,13 +2209,7 @@
 		(uuid "905f0d9b-c3c4-46cf-8810-50e3aa2041f9")
 	)
 	(junction
-		(at 59.69 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "919ce4f3-ea98-40dd-8951-b0475d480b11")
-	)
-	(junction
-		(at 91.44 41.91)
+		(at 78.74 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "951b3da5-470d-42d0-9ced-0580f267627d")
@@ -2523,7 +2221,7 @@
 		(uuid "b6d5a46d-04c5-485b-8d46-e0e17cb53899")
 	)
 	(junction
-		(at 80.01 80.01)
+		(at 67.31 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c80ef9d8-69ca-4ce6-a7e2-da274e9af8d9")
@@ -2540,12 +2238,6 @@
 		(color 0 0 0 0)
 		(uuid "de3b9def-eadc-4972-9ea5-aaf193008990")
 	)
-	(junction
-		(at 50.8 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa1adce7-b9f4-43b9-9f5d-fc64e94aca1b")
-	)
 	(wire
 		(pts
 			(xy 111.76 179.07) (xy 101.6 179.07)
@@ -2558,23 +2250,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 91.44 80.01)
+			(xy 78.74 63.5) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1005dc02-93bb-4c1c-adbb-7974f04b58a7")
-	)
-	(wire
-		(pts
-			(xy 46.99 59.69) (xy 46.99 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128f0d5b-f269-486e-930e-35ba39ae0258")
 	)
 	(wire
 		(pts
@@ -2628,17 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 59.69 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ee5b4c-3658-4bc4-afa1-bb9a476c63aa")
-	)
-	(wire
-		(pts
-			(xy 91.44 55.88) (xy 91.44 60.96)
+			(xy 78.74 50.8) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2668,23 +2340,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 63.5) (xy 59.69 80.01)
+			(xy 46.99 58.42) (xy 46.99 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4048f05d-b0c2-40e6-af26-c20b6eabc2df")
-	)
-	(wire
-		(pts
-			(xy 46.99 80.01) (xy 50.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b396f7-16b9-4c67-bbbd-31a743a975c9")
 	)
 	(wire
 		(pts
@@ -2738,16 +2400,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 50.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f20d0d-da35-46aa-bcfa-202f1b6d1a8f")
-	)
-	(wire
-		(pts
 			(xy 171.45 58.42) (xy 171.45 57.15)
 		)
 		(stroke
@@ -2758,17 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 76.2 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b5f5df3-8232-4c47-b180-f340ff57d0bc")
-	)
-	(wire
-		(pts
-			(xy 67.31 41.91) (xy 59.69 41.91)
+			(xy 54.61 36.83) (xy 46.99 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 80.01 41.91)
+			(xy 59.69 36.83) (xy 67.31 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2808,27 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 50.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc0b973-1101-426c-b29d-299066a5eb37")
-	)
-	(wire
-		(pts
-			(xy 69.85 41.91) (xy 69.85 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70602b22-31c7-481d-b149-0e5bc44fec4f")
-	)
-	(wire
-		(pts
-			(xy 80.01 80.01) (xy 91.44 80.01)
+			(xy 67.31 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2848,16 +2470,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 59.69 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f723ce-c191-4fd1-8c78-f444e73ef0d0")
-	)
-	(wire
-		(pts
 			(xy 149.86 71.12) (xy 153.67 71.12)
 		)
 		(stroke
@@ -2868,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 80.01 55.88)
+			(xy 67.31 36.83) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 80.01) (xy 80.01 80.01)
+			(xy 54.61 74.93) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2918,16 +2530,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 62.23) (xy 46.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c45f03-c8b7-4be6-ab58-eb762bb5839e")
-	)
-	(wire
-		(pts
 			(xy 124.46 44.45) (xy 124.46 43.18)
 		)
 		(stroke
@@ -2938,17 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 41.91) (xy 50.8 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12519be-7042-406f-a16c-0c3c62cc9ca8")
-	)
-	(wire
-		(pts
-			(xy 91.44 41.91) (xy 91.44 48.26)
+			(xy 78.74 36.83) (xy 78.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 41.91) (xy 59.69 55.88)
+			(xy 46.99 36.83) (xy 46.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2988,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 80.01) (xy 67.31 82.55)
+			(xy 54.61 74.93) (xy 54.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 91.44 41.91)
+			(xy 67.31 36.83) (xy 78.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 80.01) (xy 67.31 80.01)
+			(xy 46.99 74.93) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 63.5) (xy 80.01 80.01)
+			(xy 67.31 58.42) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3068,25 +2660,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 39.37) (xy 91.44 41.91)
+			(xy 78.74 34.29) (xy 78.74 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fdae17ee-fd48-43c2-ac7e-35086e7caa9d")
-	)
-	(rectangle
-		(start 24.13 29.21)
-		(end 100.33 87.63)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3c791394-0cc8-4975-add8-4d3cf948bc12)
 	)
 	(rectangle
 		(start 78.74 148.59)
@@ -3161,16 +2741,6 @@
 			(justify left)
 		)
 		(uuid "ebe73799-724d-44c9-b5cc-26a232909c4b")
-	)
-	(text "Board Power Supply"
-		(exclude_from_sim no)
-		(at 35.306 28.194 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "feda0484-151e-4f6d-9868-0c5054b76d5a")
 	)
 	(global_label "CLOCK"
 		(shape input)
@@ -3351,76 +2921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1.5KExxA")
-		(at 50.8 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "450968dd-a95d-4df4-9034-2be746e1abac")
-		(property "Reference" "D2!!!"
-			(at 53.34 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5KExxA"
-			(at 53.34 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 45.72 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-sz1-5smcxxa-datasheet?assetguid=AD01F392-F198-40B2-912E-C893981296C8"
-			(at 50.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes 16V 1.5kW UNI-DIR SZ1.5SMC AEC-Q101"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84fac2f5-89d5-4d1b-9b3e-bb01b9a19f2b")
-		)
-		(pin "1"
-			(uuid "d911be84-1f54-4834-b808-a7018216c5a4")
-		)
-		(instances
-			(project ""
-				(path "/1d668b70-50dd-4d1b-886f-26aadeb59b06"
-					(reference "D2!!!")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 124.46 39.37 0)
 		(unit 1)
@@ -3492,7 +2992,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 91.44 39.37 0)
+		(at 78.74 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3502,7 +3002,7 @@
 		(fields_autoplaced yes)
 		(uuid "62984d52-b4a1-45fb-becb-ec832f1b75d7")
 		(property "Reference" "#PWR9"
-			(at 91.44 43.18 0)
+			(at 78.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3011,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 34.29 0)
+			(at 78.74 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 39.37 0)
+			(at 78.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 39.37 0)
+			(at 78.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 39.37 0)
+			(at 78.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,126 +3052,6 @@
 			(project "stm32g0_dc_control_develop"
 				(path "/1d668b70-50dd-4d1b-886f-26aadeb59b06"
 					(reference "#PWR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1729128:1729128")
-		(at 46.99 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "707a4517-7d2a-4f21-a00b-eb1a58ab6a15")
-		(property "Reference" "J1"
-			(at 36.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Board Power Supply"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1729128"
-			(at 30.48 -32.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.phoenixcontact.net/product/1729128"
-			(at 30.48 -132.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDSN 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 46.99 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.15"
-			(at 30.48 -332.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1729128"
-			(at 30.48 -432.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1729128?qs=GFUSqQMLmmnCBVBY3dts9w%3D%3D"
-			(at 30.48 -532.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 30.48 -632.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1729128"
-			(at 30.48 -732.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11ce8ac5-8c47-4e8d-9b73-f21005742cde")
-		)
-		(pin "2"
-			(uuid "4f075662-5984-447f-9fd5-b749b6ef85a8")
-		)
-		(instances
-			(project ""
-				(path "/1d668b70-50dd-4d1b-886f-26aadeb59b06"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3126,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 59.69 0)
+		(at 67.31 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3756,7 +3136,7 @@
 		(fields_autoplaced yes)
 		(uuid "8091d4f8-ff11-47cd-bbc2-df8e02aba7ce")
 		(property "Reference" "C6"
-			(at 83.82 58.4199 0)
+			(at 71.12 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3145,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 83.82 60.9599 0)
+			(at 71.12 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.0448 63.5 0)
+			(at 66.3448 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 59.69 0)
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3172,7 @@
 			)
 		)
 		(property "Description" "Ceramic capacitor"
-			(at 80.01 59.69 0)
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +3408,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 82.55 0)
+		(at 54.61 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4037,7 +3417,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a8e9f69-10f1-4768-8152-a8397ddba391")
 		(property "Reference" "#PWR10"
-			(at 67.31 88.9 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +3426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 87.63 0)
+			(at 54.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +3435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 82.55 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +3444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 82.55 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +3453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 82.55 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +3542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 59.69 0)
+		(at 46.99 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4170,7 +3550,7 @@
 		(dnp no)
 		(uuid "a13c3e86-2b4d-465a-ae24-eccfd7db8e76")
 		(property "Reference" "C7"
-			(at 55.88 58.4199 0)
+			(at 43.18 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +3559,7 @@
 			)
 		)
 		(property "Value" "0.33u"
-			(at 55.88 60.9599 0)
+			(at 43.18 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +3568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.6552 63.5 0)
+			(at 47.9552 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +3577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 59.69 0)
+			(at 46.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +3586,7 @@
 			)
 		)
 		(property "Description" "Ceramic capacitor"
-			(at 59.69 59.69 0)
+			(at 46.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +3678,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 64.77 0)
+		(at 78.74 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4306,15 +3686,15 @@
 		(dnp no)
 		(uuid "a6d2d231-7e36-41e9-a430-a671f9612988")
 		(property "Reference" "R1"
-			(at 97.79 64.77 90)
+			(at 85.09 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 95.25 64.77 90)
+		(property "Value" "R"
+			(at 82.55 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +3702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.662 64.77 90)
+			(at 76.962 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +3711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 64.77 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +3720,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 64.77 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,73 +3939,6 @@
 			(project "stm32g0_dc_control_develop"
 				(path "/1d668b70-50dd-4d1b-886f-26aadeb59b06"
 					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c76503dd-537c-4a49-83e8-2f0783139172")
-		(property "Reference" "#PWR11"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba48efa0-8103-4382-8e97-c5e456a0f0f2")
-		)
-		(instances
-			(project "stm32g0_dc_control_develop"
-				(path "/1d668b70-50dd-4d1b-886f-26aadeb59b06"
-					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -4912,7 +4225,7 @@
 	)
 	(symbol
 		(lib_id "UA78M33CDCYG3:UA78M33CDCYG3")
-		(at 67.31 41.91 90)
+		(at 54.61 36.83 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4921,7 +4234,7 @@
 		(dnp no)
 		(uuid "e545bd35-4ef6-4035-85f9-997a510f622c")
 		(property "Reference" "IC1"
-			(at 63.754 32.766 90)
+			(at 51.054 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4242,7 @@
 			)
 		)
 		(property "Value" "UA78M33CDCYG3"
-			(at 64.008 35.56 90)
+			(at 51.308 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4250,7 @@
 			)
 		)
 		(property "Footprint" "SOT230P700X180-4N"
-			(at 162.23 76.2 0)
+			(at 149.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4260,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ua78m.pdf"
-			(at 262.23 76.2 0)
+			(at 249.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4270,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulators 3.3 V 500mA Fix Pos Voltage Regulator"
-			(at 67.31 41.91 0)
+			(at 54.61 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4279,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 462.23 76.2 0)
+			(at 449.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4289,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-UA78M33CDCYG3"
-			(at 562.23 76.2 0)
+			(at 549.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4299,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA78M33CDCYG3?qs=0O%2FZFlpUpJU0kFSZAC76Kw%3D%3D"
-			(at 662.23 76.2 0)
+			(at 649.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4309,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 762.23 76.2 0)
+			(at 749.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +4319,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "UA78M33CDCYG3"
-			(at 862.23 76.2 0)
+			(at 849.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +4351,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 52.07 90)
+		(at 78.74 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,7 +4359,7 @@
 		(dnp no)
 		(uuid "ec08326d-899b-4062-9651-e75cfd21e836")
 		(property "Reference" "D1"
-			(at 99.06 53.6575 0)
+			(at 86.36 48.5775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +4367,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 96.52 53.6575 0)
+			(at 83.82 48.5775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +4375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 52.07 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +4384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 52.07 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +4393,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 52.07 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
